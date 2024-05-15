@@ -1,4 +1,6 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
+## NAME:VESLIN ANISH A
+## REGISTER NO:212223240175
 ## AIM:
 To implement of sliding window protocal.
 ## ALGORITHM:
@@ -9,7 +11,7 @@ To implement of sliding window protocal.
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-CLIENT:
+## CLIENT:
 ```
 import socket
 s=socket.socket()
@@ -30,7 +32,7 @@ while True:
             print(ack)
             i+=s
 ```
-SERVER:
+ ## SERVER:
 ```
 import socket
 s=socket.socket()
@@ -40,8 +42,14 @@ while True:
     s.send("acknowledgement recieved from the server".encode())
 ```
 ## OUPUT:
-![image](https://github.com/23000966/2b_SLIDING_WINDOW_PROTOCOL/assets/153983364/5c1faf15-d1c2-4ac3-b78c-fc4d83a72fdd)
-![image](https://github.com/23000966/2b_SLIDING_WINDOW_PROTOCOL/assets/153983364/4deba0e1-5291-4934-939a-9c1ef7712cbe)
+## CLIENT:
+![Screenshot 2024-05-15 100243](https://github.com/veslin23000303/2b_SLIDING_WINDOW_PROTOCOL/assets/151148539/84238565-2061-4703-b568-ba966b2a0785)
+
+
+
+## SERVER:
+![Screenshot 2024-05-15 100252](https://github.com/veslin23000303/2b_SLIDING_WINDOW_PROTOCOL/assets/151148539/7f8c8a93-8e35-4ddd-94f7-7e126c7250a4)
+
 
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed
