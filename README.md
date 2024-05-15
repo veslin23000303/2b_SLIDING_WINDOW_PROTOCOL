@@ -1,5 +1,6 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
-## AIM
+## AIM:
+To implement of sliding window protocal.
 ## ALGORITHM:
 1. Start the program.
 2. Get the frame size from the user
